@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RK Player - Official Website | Modern Music &amp; Video Player for Windows</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="RK Player is an ultra-modern, high-performance media player for Windows 10 and 11. Experience lossless music, 4K HDR video playback, 10-band studio equalizer, and smart subtitle synchronization. 100% Free and Ad-Free.">
+  <meta name="keywords"
+    content="RK Player, media player, Windows 10 media player, Windows 11 video player, lossless music player, FLAC player, 4K video player, MKV player, equalizer">
+  <meta name="author" content="RK Player Team">
+  <meta name="theme-color" content="#06090e">
+
+  <!-- OpenGraph Social Sharing -->
+  <meta property="og:title" content="RK Player - Your Music. Your Videos. Your Player.">
+  <meta property="og:description"
+    content="A powerful, modern media player designed for Windows 10/11. Play any format with studio-grade audio and cinema visuals.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rkplayer.com">
+  <meta property="og:image" content="assets/rk-logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Official Favicon -->
+  <link rel="icon" type="image/png" href="assets/rk-logo.png">
+</head>
+
+<body>
+
+  <!-- Ambient Light Glow Elements -->
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-mid-right"></div>
+  <div class="ambient-glow glow-bottom-left"></div>
+
+  <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" id="brandLogo">
+        <img src="assets/rk-logo.png" alt="RK Player Logo" class="brand-logo-img">
+        <span>RK <span class="gradient-text">PLAYER</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#download" class="nav-link">Download</a></li>
+          <li><a href="#installation" class="nav-link">Install Guide</a></li>
+          <li><a href="#changelog" class="nav-link">Changelog</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#download" class="btn btn-primary" id="navDownloadBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download Free</span>
+        </a>
+
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Backdrop -->
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="section hero" id="home">
+      <div class="container">
+
+        <!-- Live Release Announcement Badge -->
+
+        <!-- Official Logo Showcase -->
+        <div class="hero-logo-showcase">
+          <div class="hero-logo-glow"></div>
+          <img src="assets/rk-logo.png" alt="RK Player Official Logo" class="hero-logo-img">
+        </div>
+
+        <div class="hero-kicker">MUSIC • VIDEO • PLAYLIST</div>
+
+        <h1 class="hero-title">
+          Your Music. Your Videos.<br>
+          <span class="gradient-text">Your Player.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          A powerful, ultra-lightweight, and modern next-generation media player designed for everyone. Play any format
+          with studio-grade lossless audio, buttery 4K HDR playback, and zero bloatware.
+        </p>
+
+        <div class="hero-actions">
+          <a href="downloads/RK Player Setup 1.0.0.exe" download="RK Player Setup 1.0.0.exe"
+            class="btn btn-primary btn-lg btn-download-exe" id="heroDownloadMain">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801" />
+            </svg>
+            <span>DOWNLOAD RK PLAYER</span>
+          </a>
+
+          <a href="#installation" class="btn btn-secondary btn-lg" id="heroInstallGuide">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <span>Install Guide</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <span>Windows 10 / 11 (64-bit)</span>
+          </div>
+
+          <div class="hero-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+            </svg>
+            <span>Size: 89.8 MB</span>
+          </div>
+
+          <div class="hero-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>100% Free &amp; Ad-Free</span>
+          </div>
+
+          <div class="hero-meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+              <line x1="12" y1="18" x2="12.01" y2="18"></line>
+            </svg>
+            <span>Android APK Coming Soon</span>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Metrics Bar
+         ========================================================================== -->
+    <section class="metrics-bar">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-item">
+            <div class="metric-icon-box">⚡</div>
+            <div>
+              <div class="metric-value">100+ Formats</div>
+              <div class="metric-label">MKV, MP4, FLAC, AVI &amp; more</div>
+            </div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-icon-box">🚀</div>
+            <div>
+              <div class="metric-value">Hardware Accel</div>
+              <div class="metric-label">Zero-lag 4K &amp; 8K GPU decoding</div>
+            </div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-icon-box">🎧</div>
+            <div>
+              <div class="metric-value">Studio Master</div>
+              <div class="metric-label">192kHz / 24-bit 32-bit DSP</div>
+            </div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-icon-box">🛡️</div>
+            <div>
+              <div class="metric-value">100% Ad-Free</div>
+              <div class="metric-label">Zero tracking, pure performance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- ==========================================================================
+         Download Section
+         ========================================================================== -->
+    <section class="section" id="download">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">DOWNLOAD CENTER</span>
+          <h2 class="section-title">Get <span class="gradient-text">RK Player</span> Today</h2>
+          <p class="section-description">
+            Latest Version: <strong>RK Player 1.0.0 (Official Stable Release)</strong>. Download the official installer
+            for Windows or sign up for the upcoming Android release.
+          </p>
+        </div>
+
+        <!-- Download Cards Grid -->
+        <div class="download-cards-grid">
+          <!-- Featured Windows Card -->
+          <div class="download-card featured">
+            <div class="card-ribbon">LATEST STABLE</div>
+
+            <div class="download-platform-header">
+              <div class="platform-logo-box">
+                <img src="assets/rk-logo.png" alt="RK Player Logo" class="platform-logo-img">
+              </div>
+              <div class="platform-title-block">
+                <h3>RK Player for Windows</h3>
+                <div class="platform-version-meta">Version 1.0.0 • 64-bit Architecture</div>
+              </div>
+            </div>
+
+            <div class="download-specs-list">
+              <div class="spec-entry">
+                <span class="spec-key">Installer Size</span>
+                <span class="spec-val">89.8 MB</span>
+              </div>
+              <div class="spec-entry">
+                <span class="spec-key">Portable Size</span>
+                <span class="spec-val">89.6 MB</span>
+              </div>
+              <div class="spec-entry">
+                <span class="spec-key">Supported OS</span>
+                <span class="spec-val">Windows 10 / 11 (64-bit)</span>
+              </div>
+              <div class="spec-entry">
+                <span class="spec-key">License</span>
+                <span class="spec-val" style="color:var(--accent-emerald);">Free &amp; Open-Source</span>
+              </div>
+              <div class="spec-entry">
+                <span class="spec-key">Total Downloads</span>
+                <span class="spec-val" id="downloadCountDisplay">14,820</span>
+              </div>
+            </div>
+
+            <div class="download-btn-group">
+              <a href="downloads/RK Player Setup 1.0.0.exe" download="RK Player Setup 1.0.0.exe"
+                class="btn btn-primary direct-download-action btn-download-exe" id="btnDownloadWindowsExe">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>DOWNLOAD INSTALLER (.EXE)</span>
+              </a>
+
+              <a href="downloads/RK Player 1.0.0.exe" download="RK Player 1.0.0.exe"
+                class="btn btn-secondary btn-download-zip" id="btnDownloadWindowsZip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                  </path>
+                </svg>
+                <span>Download Portable Edition (.EXE)</span>
+              </a>
+            </div>
+
+            <div class="checksum-snippet">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              <span>SHA-256: bf4fb2b06711010278aa3838eeff0140c9dab0f3290d0bd12f8341faaca66c81</span>
+            </div>
+          </div>
+
+
+
+          <!-- Android APK Card -->
+          <div class="download-card android-card">
+            <div class="download-platform-header">
+              <div class="platform-icon-circle">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.551 0 .9993.4482.9993.9993.0001.5511-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993 0 .5511-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.4116 13.8533 8.1 12 8.1s-3.5902.3116-5.1367.8497L4.841 5.4467a.4161.4161 0 00-.5677-.1521.4157.4157 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396" />
+                </svg>
+              </div>
+              <div class="platform-title-block">
+                <h3>RK Player for Android</h3>
+                <div class="platform-version-meta" style="color:#c084fc; font-weight:600;">Coming Soon (Q4 2026)</div>
+              </div>
+            </div>
+
+            <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 16px;">
+              The complete RK Player experience is coming to Android with background audio playback, hardware gesture
+              volume/brightness controls, and LAN streaming.
+            </p>
+
+            <form class="android-notify-form" id="androidNotifyForm"
+              action="https://formsubmit.co/tudurajanikanta@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="New RK Player Android APK Waitlist Signup!">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <label class="spec-key" for="notifyEmail">Get notified when APK drops:</label>
+              <div class="notify-input-box">
+                <input type="email" name="email" class="notify-input" id="notifyEmail"
+                  placeholder="Enter your email address" required>
+              </div>
+              <button type="submit" class="btn btn-outline" style="width: 100%;" id="notifySubmitBtn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Notify Me on Launch</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- System Requirements Table -->
+        <div class="sys-req-box">
+          <h3 class="sys-req-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <span>Windows System Requirements</span>
+          </h3>
+
+          <div class="sys-req-table-wrapper">
+            <table class="sys-req-table">
+              <thead>
+                <tr>
+                  <th>Component</th>
+                  <th>Minimum Specification</th>
+                  <th>Recommended Specification</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Operating System</td>
+                  <td>Windows 10 (64-bit build 1809+)</td>
+                  <td>Windows 11 (64-bit latest build)</td>
+                </tr>
+                <tr>
+                  <td>Processor (CPU)</td>
+                  <td>Intel Core i3 / AMD Ryzen 3 (1.8 GHz)</td>
+                  <td>Intel Core i5 / AMD Ryzen 5 or better</td>
+                </tr>
+                <tr>
+                  <td>System Memory (RAM)</td>
+                  <td>2 GB RAM</td>
+                  <td>4 GB RAM or higher</td>
+                </tr>
+                <tr>
+                  <td>Graphics (GPU)</td>
+                  <td>DirectX 11 compatible integrated graphics</td>
+                  <td>NVIDIA GeForce / AMD Radeon with DirectX 12</td>
+                </tr>
+                <tr>
+                  <td>Disk Storage</td>
+                  <td>120 MB free space</td>
+                  <td>250 MB free space (SSD recommended)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Previous Versions Collapsible Archive -->
+        <div class="previous-releases-box">
+          <div class="prev-versions-toggle" id="prevVersionsToggle">
+            <h4>📦 Previous Versions &amp; Archive</h4>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              id="prevVersionsArrow" style="transition: transform 0.3s ease;">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+
+          <div class="prev-versions-content" id="prevVersionsContent">
+            <div class="prev-version-row">
+              <div>
+                <strong>RK Player v1.0.0 (Installer)</strong>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Released Sep 2026 • Official Setup (89.8 MB)
+                </div>
+              </div>
+              <a href="downloads/RK Player Setup 1.0.0.exe" download="RK Player Setup 1.0.0.exe" class="btn btn-outline"
+                style="padding: 6px 14px; font-size: 0.85rem;">Download .exe</a>
+            </div>
+
+            <div class="prev-version-row">
+              <div>
+                <strong>RK Player v1.0.0 (Portable)</strong>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Standalone Executable (89.6 MB)</div>
+              </div>
+              <a href="downloads/RK Player 1.0.0.exe" download="RK Player 1.0.0.exe" class="btn btn-secondary"
+                style="padding: 6px 14px; font-size: 0.85rem;">Download .exe</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Installation Guide (Stepper)
+         ========================================================================== -->
+    <section class="section" id="installation">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">QUICK START GUIDE</span>
+          <h2 class="section-title">How to Install RK Player on Windows</h2>
+          <p class="section-description">
+            Getting started takes less than 60 seconds. Follow these 3 simple steps to start enjoying your music and
+            videos.
+          </p>
+        </div>
+
+        <div class="install-steps-grid">
+          <!-- Step 1 -->
+          <div class="install-step-card">
+            <span class="step-number">01</span>
+            <div class="step-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Download Installer</h3>
+            <p class="step-desc">
+              Click the download button above to grab the official <code>RK Player Setup 1.0.0.exe</code> (or Portable
+              <code>RK Player 1.0.0.exe</code>) directly to your PC.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="install-step-card">
+            <span class="step-number">02</span>
+            <div class="step-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Run Setup Wizard</h3>
+            <p class="step-desc">
+              Double-click the installer file. Follow the on-screen setup prompts to choose your preferred install
+              folder and start menu shortcuts.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="install-step-card">
+            <span class="step-number">03</span>
+            <div class="step-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </div>
+            <h3 class="step-title">Play &amp; Enjoy</h3>
+            <p class="step-desc">
+              Launch RK Player from your Desktop or Start Menu. Simply drag and drop any audio or video file or whole
+              folder to start playing!
+            </p>
+          </div>
+        </div>
+
+        <div class="smartscreen-notice">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <div>
+            <strong>Windows SmartScreen notice:</strong> Because RK Player is a freshly built independent open-source
+            release, Windows may display a blue warning dialog. Simply click <strong>"More info"</strong> and then
+            <strong>"Run anyway"</strong>. RK Player contains zero viruses, adware, or background tracking.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Changelog Section
+         ========================================================================== -->
+    <section class="section" id="changelog">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">VERSION HISTORY</span>
+          <h2 class="section-title">Changelog &amp; Release Notes</h2>
+          <p class="section-description">
+            Track continuous improvements, new features, audio enhancements, and performance optimizations.
+          </p>
+        </div>
+
+        <div class="changelog-timeline">
+          <!-- Release 1.0.0 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-version-tag">
+                  <span class="version-pill">v1.0.0 (Official Launch)</span>
+                  <span class="change-type type-new">STABLE</span>
+                </div>
+                <span class="release-date">September 29, 2026</span>
+              </div>
+              <ul class="changelog-list">
+                <li class="changelog-entry">
+                  <span class="change-type type-new">NEW</span>
+                  <span>Brand new dark glassmorphic UI design system with dynamic audio waveform visualizer.</span>
+                </li>
+                <li class="changelog-entry">
+                  <span class="change-type type-new">NEW</span>
+                  <span>10-Band Studio Equalizer with Bass Boost, 3D Spatial Surround, and custom preset
+                    exporter.</span>
+                </li>
+                <li class="changelog-entry">
+                  <span class="change-type type-new">NEW</span>
+                  <span>Full DirectX 12 GPU hardware acceleration pipeline for 4K HDR and HEVC/H.265 playback.</span>
+                </li>
+                <li class="changelog-entry">
+                  <span class="change-type type-new">NEW</span>
+                  <span>Advanced Subtitle engine supporting .SRT, .ASS, .VTT with real-time millisecond offset
+                    adjustment.</span>
+                </li>
+                <li class="changelog-entry">
+                  <span class="change-type type-perf">PERF</span>
+                  <span>Reduced cold start application launch time down to under 300ms.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Release 0.9.5 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-version-tag">
+                  <span class="version-pill" style="background:rgba(255,255,255,0.1); color:#ffffff;">v0.9.5-beta</span>
+                  <span class="change-type type-fix">BETA</span>
+                </div>
+                <span class="release-date">August 18, 2026</span>
+              </div>
+              <ul class="changelog-list">
+                <li class="changelog-entry">
+                  <span class="change-type type-new">NEW</span>
+                  <span>Lossless FLAC, ALAC, and DSD 192kHz/24-bit audio decoding pipeline.</span>
+                </li>
+                <li class="changelog-entry">
+                  <span class="change-type type-new">NEW</span>
+                  <span>Picture-in-Picture (PiP) borderless floating window for convenient multitasking.</span>
+                </li>
+                <li class="changelog-entry">
+                  <span class="change-type type-fix">FIX</span>
+                  <span>Resolved audio desync on variable framerate (VFR) MKV video recordings.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Release 0.9.0 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-version-tag">
+                  <span class="version-pill"
+                    style="background:rgba(255,255,255,0.1); color:#ffffff;">v0.9.0-alpha</span>
+                  <span class="change-type type-perf">ALPHA</span>
+                </div>
+                <span class="release-date">July 04, 2026</span>
+              </div>
+              <ul class="changelog-list">
+                <li class="changelog-entry">
+                  <span class="change-type type-new">NEW</span>
+                  <span>Initial core playback framework and playlist queueing architecture.</span>
+                </li>
+                <li class="changelog-entry">
+                  <span class="change-type type-perf">PERF</span>
+                  <span>Universal codec engine baseline covering MP4, MKV, AVI, and MP3 formats.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ Section
+         ========================================================================== -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">QUESTIONS &amp; ANSWERS</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-description">
+            Find answers to common questions about RK Player, formats, licensing, and troubleshooting.
+          </p>
+        </div>
+
+        <div class="faq-accordion">
+          <!-- Q1 -->
+          <div class="faq-item active">
+            <button class="faq-question-btn">
+              <span>Is RK Player completely free to download and use?</span>
+              <div class="faq-icon-cross"></div>
+            </button>
+            <div class="faq-answer">
+              Yes, 100%! RK Player is completely free for personal and commercial usage. There are no paywalls, no trial
+              periods, and no locked features.
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>Are there advertisements or telemetry trackers in RK Player?</span>
+              <div class="faq-icon-cross"></div>
+            </button>
+            <div class="faq-answer">
+              Never. RK Player does not display banner ads, popups, sponsor recommendations, or bundled third-party junk
+              software. Your playback activity stays strictly on your local PC.
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>What audio and video file formats are supported?</span>
+              <div class="faq-icon-cross"></div>
+            </button>
+            <div class="faq-answer">
+              RK Player supports virtually all modern media formats out of the box without needing extra codec packs:
+              <br><br>
+              <strong>Video:</strong> MP4, MKV, AVI, MOV, WMV, FLV, WEBM, TS, M2TS, VOB, 3GP (H.264, H.265/HEVC, VP9,
+              AV1).<br>
+              <strong>Audio:</strong> MP3, FLAC, WAV, AAC, M4A, OGG, OPUS, WMA, AIFF, APE, ALAC.
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>How do I load subtitles or fix out-of-sync captions?</span>
+              <div class="faq-icon-cross"></div>
+            </button>
+            <div class="faq-answer">
+              Simply drag and drop your <code>.srt</code> or <code>.ass</code> subtitle file right onto the playing
+              video. If the captions appear too early or late, use the hotkeys <code>G</code> (delay by 50ms) and
+              <code>H</code> (speed up by 50ms), or open the Subtitle Sync dialog to set an exact millisecond offset.
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>When will the Android APK version be available?</span>
+              <div class="faq-icon-cross"></div>
+            </button>
+            <div class="faq-answer">
+              The RK Player Android app is scheduled for release in Q4 2026. You can enter your email in the Download
+              section above to receive an instant notification when the APK is available for download.
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>How do I report a bug or request a new feature?</span>
+              <div class="faq-icon-cross"></div>
+            </button>
+            <div class="faq-answer">
+              We welcome your feedback! You can reach out directly using the Contact Form below, open an issue on our
+              GitHub repository, or email us at <code>support@rkplayer.com</code>.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contact & Community Section
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Join the <span class="gradient-text">RK Player</span> Community</h2>
+          <p class="section-description">
+            Have a question, feedback, or feature idea? Send us a message or join our developer community.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Info Box -->
+          <div class="contact-info-panel">
+            <div>
+              <h3>Connect With Us</h3>
+              <p>
+                RK Player is built with passion for media enthusiasts. Follow our development updates, contribute on
+                GitHub, or get direct support.
+              </p>
+
+              <div class="social-links-grid">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  <span>GitHub Repository (Source Code)</span>
+                </a>
+
+                <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+                  </svg>
+                  <span>Discord Community Chat</span>
+                </a>
+
+                <a href="mailto:tudurajanikanta@gmail.com" class="social-link-item">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <span>tudurajanikanta@gmail.com</span>
+                </a>
+              </div>
+            </div>
+
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+              Official Headquarters: Global Open Source Media Foundation
+            </div>
+          </div>
+
+          <!-- Right Form Box -->
+          <div class="contact-form-panel">
+            <form id="contactForm" action="https://formsubmit.co/tudurajanikanta@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label class="form-label" for="contactName">Your Name</label>
+                  <input type="text" name="name" class="form-input" id="contactName" placeholder="e.g. Alex Mercer"
+                    required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contactEmail">Your Email</label>
+                  <input type="email" name="email" class="form-input" id="contactEmail" placeholder="alex@example.com"
+                    required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactSubject">Subject</label>
+                <input type="text" name="_subject" class="form-input" id="contactSubject"
+                  placeholder="Bug Report / Feature Request / Feedback" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactMessage">Message</label>
+                <textarea name="message" class="form-textarea" id="contactMessage"
+                  placeholder="Tell us how we can help improve your RK Player experience..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;" id="contactSubmitBtn">
+                <span>Send Message ➔</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="#home" class="brand-logo" style="margin-bottom: 12px;">
+            <img src="assets/rk-logo.png" alt="RK Player Logo" class="brand-logo-img">
+            <span>RK <span class="gradient-text">PLAYER</span></span>
+          </a>
+          <p class="footer-brand-p">
+            The next-generation audio and video media player for Windows. Built for performance, high fidelity, and
+            simplicity.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#installation">Install Guide</a></li>
+            <li><a href="#changelog">Changelog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Download</h4>
+          <ul class="footer-nav-list">
+            <li><a href="downloads/RK Player Setup 1.0.0.exe" download="RK Player Setup 1.0.0.exe">Windows Installer
+                (.EXE)</a></li>
+            <li><a href="downloads/RK Player 1.0.0.exe" download="RK Player 1.0.0.exe">Portable Edition (.EXE)</a></li>
+            <li><a href="#download">Android APK (Waitlist)</a></li>
+            <li><a href="#changelog">Latest Changelog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Community</h4>
+          <ul class="footer-nav-list">
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub Project</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#installation">Installation Guide</a></li>
+            <li><a href="#contact">Contact Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 RK Player . All rights reserved.</div>
+        <div style="display:flex; gap:20px;">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
