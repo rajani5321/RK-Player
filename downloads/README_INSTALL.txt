@@ -11,5 +11,4 @@ Quick Start:
 Supported Formats:
 MP4, MKV, AVI, MOV, FLV, WEBM, MP3, FLAC, AAC, OGG, WAV, M4A, etc.
 
-Official Website: https://rkplayer.com
-Support & Bug Reports: support@rkplayer.com
+
