@@ -1412,7 +1412,7 @@ img, svg {
   background: rgba(4, 7, 14, 0.75);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  z-index: 1000;
+  z-index: 999;
   opacity: 0;
   pointer-events: none;
   transition: opacity var(--transition-normal);
@@ -1487,6 +1487,14 @@ body.menu-locked {
 
   .section-header {
     margin-bottom: 40px;
+  }
+
+  /* Fix WebKit Containing Block Bug for Mobile Menu Clicks */
+  body.menu-locked .navbar {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: transparent;
+    border-bottom: none;
   }
 
   /* Mobile Drawer Menu */
